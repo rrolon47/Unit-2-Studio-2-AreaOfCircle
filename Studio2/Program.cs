@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
 namespace Studio2
 {
@@ -16,6 +17,10 @@ namespace Studio2
 //code with the circle class            
             Console.WriteLine("Enter a radius: ");
             r = Console.ReadLine();
+            //if (String.IsNullOrEmpty(r) || r != number value)
+            //{
+            //    Console.WriteLine("Please enter a value for radius.");
+            //}
             while (double.Parse(r) < 0)
             {
                 Console.WriteLine("Please enter an number that is greater than 0.");
