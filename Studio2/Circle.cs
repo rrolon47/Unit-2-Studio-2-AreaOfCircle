@@ -18,5 +18,11 @@ namespace Studio2
             double r = double.Parse(radius);
             return 2 * Math.PI * r;
         }
+
+        public static double Diameter(string radius)
+        {
+            double r = double.Parse(radius);
+            return 2 * r;
+        }
     }
 }
